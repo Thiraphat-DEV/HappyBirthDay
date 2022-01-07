@@ -1,0 +1,47 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+:root {
+  --backgroud-color: linear-gradient(to top, #4f86f7 0%, #df73ff 100%);
+  --shadow--color: #533d4a;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Pacifico", sans-serif;
+  background: var(--backgroud-color);
+  height: 100vh;
+  overflow: hidden;
+}
+
+span {
+  transform: skew(-10deg);
+  text-shadow: var(--shadow--color) 2px 2px, var(--shadow--color) 3px 3px, var(--shadow--color) 4px 4px,
+    var(--shadow--color) 5px 5px;
+}
+
+.color {
+  transform: translateX(-50%) rotate(20deg);
+  display: flex;
+  justify-content: center;
+  font-size: 100px;
+}
+.color {
+  transform: skew(-10deg);
+  text-shadow: var(--shadow--color) 1px 1px, var(--shadow--color) 2px 2px, var(--shadow--color) 3px 3px,
+    var(--shadow--color) 4px 4px, var(--shadow--color) 5px 5px, var(--shadow--color) 6px 6px;
+}
+
+.color:nth-child(1) {
+  color: #e55;
+}
+.color:nth-child(2) {
+  color: #40ade5;
+}
+.color:nth-child(3) {
+  color: #ee5;
+}
