@@ -4,7 +4,7 @@ import TextTransition, {presets} from "react-text-transition";
 const Text = [
   'Happy',
   'BirthDay',
-  'To💗 ME🎂 '
+  'To💗 ME🎂  '
 ]
 const colorText = [
   '#e55',
